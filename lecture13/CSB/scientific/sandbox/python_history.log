@@ -1,0 +1,127 @@
+_HiStOrY_V2_
+conda\040install\040conda-forge::scipy
+from\040Bio\040import\040Entrez
+import\040numpy\040as\040np
+os.getcwd()
+import\040os
+os.getcwd()
+import\040numpy\040as\040np
+import\040skimage.io\040as\040io
+conda\040install\040-c\040conda-forge\040scikit-image
+from\040Bio\040import\040Entrez
+import\040numpy\040as\040np
+os.getcwd()
+import\040os
+os.getcwd()
+import\040skimage.io\040as\040io
+import\040matplotlib\040as\040mpl
+image\040=\040io.imread("./data/Kacsoh2013_Drosobrain.png")
+import\040io
+image\040=\040io.imread("./data/Kacsoh2013_Drosobrain.png")
+from\040Bio\040import\040Entrez
+from\040Bio\040import\040Entrez
+conda\040update\040pandas
+>>>\040import\040numpy\040as\040np
+import\040numpy\040as\040np
+import\040skimage.io\040as\040io
+from\040Bio\040import\040Entrez
+conda\040list
+from\040Bio\040import\040Entrez
+import\040numpy\040as\040np
+import\040skimage.io\040as\040io
+.venv/bin/python\040--version
+import numpy as np
+from Bio import Entrez
+pip install biopython
+from Bio import Entrez
+import numpy as np
+import skimage.io as io
+from Bio import Entrez
+import skimage.io as io
+import numpy as np
+import matplotlib as mpl
+io.imshow(image)
+image = io.imread("../data/Kacsoh2013_Drosobrain.png")
+import skimage.io as io
+image = io.imread("../data/Kacsoh2013_Drosobrain.png")
+type(image)
+io.imshow(image)
+import matplotlib
+matplotlib.use('Agg')
+from skimage import io
+image = io.imread("../data/Kacsoh2013_Drosobrain.png")
+io.imshow(image)
+<matplotlib.image.AxesImage object at 0x7f103b7a6080>
+io.imshow(image)
+import matplotlib
+import skimage.io as io
+import numpy as np
+import matplotlib as mpl
+image = io.imread("../data/Kacsoh2013_Drosobrain.png")
+io.imshow(image)
+QXcbConnection: XCB error: 170 (Unknown), sequence: 170, resource id: 90, major code: 146 (Unknown), minor code: 20
+mpl.pyplot.show()
+import matplotlib
+import skimage.io as io
+import numpy as np
+import matplotlib as mpl
+image = io.imread("../data/Kacsoh2013_Drosobrain.png")
+threshold = 100
+mask = red > threshold
+image.shape
+image[:,:,0]
+red = image[:,:,0]
+red.mean()
+red.std()
+green = image[:,:,1]
+green.mean()
+mask = red > threshold
+mask.sum()
+io.imshow(mask)
+mpl.pyplot.show()
+import pandas
+import sys
+!{sys.executable} -m pip install pandas
+import sys
+!{sys.executable} -m pip install pandas
+import os
+os.system("pip install pandas")
+import pandas
+import numpy as np
+data = pandas.read_csv("../data/Dale2015_data.csv")
+data.shape
+data.columns
+data["Sum_scores"] = data["Female_plumage_score"] + data["Male_plumage_score"]
+data.head()
+data["Study"] = 1
+data.head()
+data["Rnd"] = np.random.random(data.shape[0])
+data.head()
+del(data["Sum_scores"])
+data.head()
+data.drop(["Rnd", "Study"], axis = 1, inplace = True)
+data.head()
+data["Scientific_name"][:3]
+data.Scientific_name[:3]
+data.loc[:3, ["Scientific_name", "English_name"]]
+data.loc[data.Scientific_name == "Zosterops mouroniensis"]
+data.iloc[2, 1]
+high_male_score = data[data["Male_plumage_score"] > 65]
+highly_dimorphic = data[(data.Male_plumage_score > 70) & (data.Female_plumage_score < 40)]
+high_male_score["Qualitative_score"] = "High"
+high_male_score = data[data["Male_plumage_score"] > 65].copy()
+high_male_score["Qualitative_score"] = "High"
+data.Male_plumage_score.mean()
+data.Male_plumage_score.median()
+data.Male_plumage_score.std()
+import matplotlib as mpl
+data.Male_plumage_score.hist()
+mpl.pyplot.show()
+gggg
+data.plot.scatter(x = "Male_plumage_score", y = "Female_plumage_score")
+mpl.pyplot.show()
+data[["Male_plumage_score", "Female_plumage_score"]].plot.box()
+mpl.pyplot.show()
+import readlineimport readline
+import readline
+readline.write_history_file("python_history.log")

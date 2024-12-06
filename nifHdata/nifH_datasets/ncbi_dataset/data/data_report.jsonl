@@ -1,0 +1,1 @@
+{"annotations":[{"assemblyAccession":"No Assembly","genomicLocations":[{"genomicAccessionVersion":"NZ_VISK01000015.1","genomicRange":{"begin":"262164","end":"263045","orientation":"plus"}}]}],"description":"nitrogenase iron protein","geneId":"56451760","orientation":"plus","proteinCount":1,"symbol":"nifH","taxId":"192","taxname":"Azospirillum brasilense","type":"PROTEIN_CODING"}
