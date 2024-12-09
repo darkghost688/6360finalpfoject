@@ -116,10 +116,39 @@ So, let's think about how to do it with the technology we have learned now
 
 
 # FINAL RESULT
-Model Performance Comparison:
+![Model Performance Comparison:
            Model     RMSE        R²
 Lasso Regression 6.981998 -0.163753
    Random Forest 6.116613  0.106853
              SVM 6.970041 -0.159770
              KNN 6.873742 -0.127944
-  Neural Network 6.344727  0.038992
+  Neural Network 6.344727  0.038992](https://p.ipic.vip/916347.png)
+
+
+We trained various nonlinear models, including Random Forest, Gradient Boosting, Neural Networks, K-Nearest Neighbors and Support Vector Machine, with hyperparameter tuning using GridSearchCV to optimize their performance. Each model was evaluated using RMSE and R² metrics. Additionally, we also visualized feature importances and plotted actual vs. predicted values.
+
+
+
+One-hot Encoding:
+Applied one-hot encoding to categorical features
+
+ (## ID: Unique identifier of the gene sequence.
+
+* Sequence: The base sequence of the gene (A, T, C, G).
+
+* Length: The length of the gene in base pairs.
+
+* GC_Content: GC content, which is (G + C) / total length.
+
+* Sequence entropy (Shannon entropy)
+
+* GC content
+
+* ATCG share
+
+* Maximum base repeat length) 
+to transform them into binary numeric features represented by 0 or 1 for compatibility with machine learning models.
+Train-Test Split:
+Splited the dataset into training(80%) and testing sets(20%) with a fixed random seed (random_state=42).
+
+
