@@ -1,5 +1,15 @@
 # Final Project
 
+git clone 
+open nifH.ipynb
+
+run the code:
+
+```python
+pip install pandas matplotlib seaborn numpy scikit-learn biopython
+```
+
+
 ## Final Project by zhiwen zhong
 *  FINAL Project: "Organize Biological Data through the model built project"
 *  
