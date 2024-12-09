@@ -1,7 +1,7 @@
 # Final Project
 
 ## Final Project by zhiwen zhong
-*  FINAL Project: "Welcome to the Desert of the Real"
+*  FINAL Project: "Organize Biological Data through the model built project"
 *  
 We have spent the semester learning:
 * the philosophy of data science and linux
@@ -12,10 +12,12 @@ We have spent the semester learning:
   * `python`
 * version controling our work using git
 * distributing our work using GitHub
+* the final project that professor want is we can organize Biological Data by this class
+* so just build a model try to use the sequenced genes
 
 
 # * Main purpose
-### A model was created based on the 20 nifH genes data to predict which species of the sample belong to.
+### Organize Biological Data by models created based on the 20 nifH genes data to predict which species of the sample belong to.
 
 
 * Download the data from :
@@ -25,38 +27,39 @@ NCBI
 
 and through 5 different models to predict the accuracy.
 
+# this project shows：
+### 1 Batch processing of data
+If the data sources are scattered, how to unify them in batches
+![alt text](https://p.ipic.vip/go8ge3.png)
+### 2 How to convert gene format into usable data format
+
+### 3 How to aggregate data into the same table
+![alt text](https://p.ipic.vip/96je1o.png)
+### 4 How to combine valid data into one table
+![alt text](https://p.ipic.vip/9xcmnf.png)
+### 5 How to process and draw the data in the table
+1 hot map
+![alt text](https://p.ipic.vip/2a6wf0.png)
+2 Scatter plot
+![alt text](https://p.ipic.vip/fdfv7z.png)
+3 Line chart
+![alt text](https://p.ipic.vip/mi4mjx.png)
 
 
-## the 5 models
+# Highlights
 
-### 1
+## use the 5 models to show the way to handle data
 
-大家好，相信大家经过一学期的学习已经对bash和R已经很了解了，
-现在于是我就想用现在所学的内容做个项目
+### 1 Lasso Regression model
 
-我们实验室是做水生微生物中的固氮细菌去固氮的一个过程
-所有我们实验室要做nifH的测序
+### 2 Ridge Regression
 
-大家知道ncbi中有一个很有趣的功能嘛？
-叫做Blast
+### 3 Randon Forest
 
-我们可以将我们测序后得到的基因与数据库进行比对，所以这个功能到底是怎么做到的那？
-我就有了一个很有趣的想法
+### 4 Gradient Boosting Model (GBM)
 
-如果可以自己写一个算法，可以与数据库中nifH的基因进行对比，然后判断是否属于此物种
+### 5 SVM Model
 
-因为大家知道,我们送去测序的核心就是希望知道我们送测的样本有多少的概率属于这个，有多少的概率属于那个，有多少的概率不是我们想要的
+### 6 KNN Model
 
-虽然R中我们可以导入package来实现这个，但是这件事是怎么做出来的呢？
-
-所以能不能借着这次项目来复刻一个项目
-
-
-所以我就想通过所学的技术来进行复现
-
-所以，让我们想想看用我们现在所学的技术怎么做到
-
-
-
-
-通过这门课，我们学习到了计算机基础知识，希望可以广泛的应用到我们的学习中
+### 7 Neural Network
